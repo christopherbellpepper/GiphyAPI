@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Git'n Giphy Wit it!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="row" id="search">
+          
+          <div class="col-sm-4">
+            <h1>Git'n Giphy Wit it!</h1>
+          </div>
+
+          <div class="col-sm-4">
+            <!-- This form will be where users input data about the Gifs -->
+            <form id="movie-form">
+            <label for="movie-input">Search Movie Gifs</label>
+            <input type="text" id="movie-input"/>
+          </div>
+
+          <div class="col-sm-4">
+            <!-- This button will trigger our AJAX call -->
+            <input id="find-movie" type="submit" value="Movie Search"/>
+            </form>
+          </div>
+
+        </div>
+
+        <!-- Gifs buttons will get dumped here -->
+        <div id="buttons-view"></div><br>
+
+        <!-- Gifs will populate here -->
+        <div class="row" id="movie-view"></div><br>
+    </div>
+
+      <!-- <<<<<javaScript Links>>>>> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script rel="javascript" type="text/javascript" src="assets/javascript/app.js"></script>
+    </div>
+  </body>
+</html>
